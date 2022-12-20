@@ -19,7 +19,7 @@ def parse_symbol_line(symbol_line, symbol_addresses, symbol_names):
         except Exception:
             pass
 
-        if(symbol_address == None and int_address >= 0x80003100 and int_address <= 0x8040ed60):
+        if(symbol_address == None and int_address >= ida_ida.inf_get_min_ea() and int_address <= ida_ida.inf_get_max_ea()):
             symbol_address = int_address
         elif(not symbol_address == None and not word[0].isdigit()):
 
