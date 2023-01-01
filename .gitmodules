@@ -4,3 +4,6 @@
 [submodule "loaders"]
 	path = loaders
 	url = https://github.com/reswitched/loaders
+[submodule "switch-reversing"]
+	path = switch-reversing
+	url = https://github.com/hthh/switch-reversing
