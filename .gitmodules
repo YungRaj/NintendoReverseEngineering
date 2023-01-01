@@ -1,0 +1,6 @@
+[submodule "kernel-scripts"]
+	path = kernel-scripts
+	url = https://github.com/SciresM/kernel-scripts
+[submodule "loaders"]
+	path = loaders
+	url = https://github.com/reswitched/loaders
